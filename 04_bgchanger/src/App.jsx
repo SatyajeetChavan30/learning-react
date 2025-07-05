@@ -14,7 +14,7 @@ function App() {
 
           <div className="fixed bottom-12 left-1/2 transform -translate-x-1/2 flex gap-3 bg-white rounded-3xl shadow-2xl p-4">
             <button
-              className="p-2 text-white bg-black outline-black rounded-4xl "
+              className="p-2 text-white bg-black outline-black rounded-4xl shadow-black "
               onClick={() => {
                 setcolor("white");
               }}
@@ -22,7 +22,7 @@ function App() {
               white
             </button>
             <button
-              className="p-2 text-white bg-purple-950 outline-black rounded-4xl "
+              className="p-2 text-white bg-purple-950 outline-black rounded-4xl shadow-lg"
               onClick={() => {
                 setcolor("purple");
               }}
@@ -30,7 +30,7 @@ function App() {
               purple
             </button>
             <button
-              className="p-2 text-black bg-white outline-black rounded-4xl "
+              className="p-2 text-black bg-white outline-black rounded-4xl shadow-lg"
               onClick={() => {
                 setcolor("black");
               }}
@@ -38,7 +38,7 @@ function App() {
               black
             </button>
             <button
-              className="p-2 text-white bg-red-600 outline-black rounded-4xl "
+              className="p-2 text-white bg-red-600 outline-black rounded-4xl shadow-lg"
               onClick={() => {
                 setcolor("red");
               }}
@@ -46,7 +46,7 @@ function App() {
               red
             </button>
             <button
-              className="p-2 text-white bg-blue-800 outline-black rounded-4xl "
+              className="p-2 text-white bg-blue-800 outline-black rounded-4xl shadow-lg"
               onClick={() => {
                 setcolor("blue");
               }}
