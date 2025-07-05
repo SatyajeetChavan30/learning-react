@@ -1,3 +1,3 @@
 # learning-react
 
-a repo to push my react notes
+a repo to to learn react
