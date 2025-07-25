@@ -16,7 +16,7 @@ function App() {
             <button
               className="p-2 text-white bg-black outline-black rounded-4xl shadow-black "
               onClick={() => {
-                setcolor("white");
+                setcolor("orange");
               }}
             >
               white
